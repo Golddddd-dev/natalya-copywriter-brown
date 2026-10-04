@@ -1790,10 +1790,9 @@ h2 .хвост-акцент { display: block; font-weight: 600; font-size: .6em;
   #экран-04.тёмный .связь__знак { background: var(--цвет-тёплый-мягкий); color: var(--цвет-тёмный-фон); }
   #экран-04.тёмный .связь__способ { color: var(--цвет-тёплый-мягкий); }
 
+  #экран-04 .связь__действие { align-items: center; text-align: center; }
+  #экран-04 .связь__строка { justify-content: center; text-align: left; }
+  #экран-04 .связь__действие .кнопка { width: 100%; max-width: 360px; justify-content: center; }
   @media (max-width: 799px) {
     #экран-04 .связь { grid-template-columns: minmax(0, 1fr); gap: 24px; }
-
-    #экран-04 .связь__действие { align-items: center; text-align: center; }
-    #экран-04 .связь__строка { justify-content: center; text-align: left; }
-    #экран-04 .связь__действие .кнопка { width: 100%; max-width: 360px; justify-content: center; }
   }
